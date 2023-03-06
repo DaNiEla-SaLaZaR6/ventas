@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html,body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../imagenes/rose-petals.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    background-color:white;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    /* font-weight: 600; */
+}
+
+/* nav ul{
+    float: right;
+    margin-right: 60px;
+} */
+nav ul li{
+    display: inline-block;
+    /* text-decoration: none; */
+    line-height: 60px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: #DD1188;
+    /* color: rgb(#DD1188); */
+    font-size: 19px;
+    padding: 0px 100px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+li a:hover{
+    color: #FFAA33;
+    /* color: rgb(#FFAA33); */
+}
+.fin{
+    display: flex;
+    position: relative;
+    left: 80vh;
+} 
+section{
+    height: 100vh;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+}
+h1{
+    justify-content: center;
+    color: #FFAA33;
+
+}
